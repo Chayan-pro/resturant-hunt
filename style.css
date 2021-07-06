@@ -136,3 +136,77 @@ a.visit-button{
     padding:15px 5px;
     margin: 0 1%;
 }
+.booking-heading {
+    width: 100%;
+    text-align: center;
+}
+.booking-heading h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #575757;
+}
+.room-color{
+    color: #FB934A;
+}
+.book-area{
+    display: flex;
+}
+.booking-sec{
+    padding-bottom: 40px;
+}
+.book-content{
+    margin: 0 3%;
+    box-shadow: 10px 12px 40px #cac6c6;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 40px 20px;
+    width: 30%;
+}
+.book-content ul li{
+    list-style: circle;
+    font: 18px;
+    text-align: left;
+    line-height: 1.6;
+}
+.book-content p{
+    text-align: left;
+    font-size: 20px;
+    color: #FD4F30;
+    margin-left: 38px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.book-content .book-button{
+    padding: 14px 40px;
+    background-image: linear-gradient(to right, #FB954B, #FE4A2F);
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+}
+.book-content h3{
+    font-size: 30px;
+    color: #575757;
+}
+.footer-sec{
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+    background-color: #0B0E17;
+    margin-top: 40px;
+
+}
+.footer-sec h2 span{
+    color: #FB934A;
+    
+}
+.footer-sec h2{
+    font-size: 35px;
+    color: #5B5B5B;
+}
+.footer-sec p{
+    color: #fff;
+    font-weight: 700;
+}
