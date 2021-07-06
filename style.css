@@ -2,3 +2,40 @@ body{
     font-family: 'Rubik', sans-serif;
     margin: 0;
 }
+.welcome-area{
+    display: flex;
+    padding: 20px 0;
+}
+.welcome-half-area{
+    width: 49%;
+    margin-left: 7%;
+}
+.welcome-half-area h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.welcome-half-area p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.welcome-half-area img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%; 
+    border: 5px solid rgb(194, 126, 126);
+}
+.welcome-heading{
+    color: #FB934A;
+}
+a.visit-button{
+    padding: 14px 40px;
+    background-image: linear-gradient(
+       to right, #FB9149,#FD492E);
+    text-decoration: none;
+    border-radius: 30px;   
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-top: 7px;
+    display: inline-block;
+    box-shadow: 14px 15px 50px 2px #fee7d8;
+}
