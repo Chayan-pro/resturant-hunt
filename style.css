@@ -39,3 +39,29 @@ a.visit-button{
     display: inline-block;
     box-shadow: 14px 15px 50px 2px #fee7d8;
 }
+.about-area {
+    display: flex;
+    padding-top: 175px;
+    background-image: url(images/Frame1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-half-area {
+    width: 49%;
+    margin-left: 7%;
+}
+
+.about-half-area img {
+    width: 550px;
+    height: 550px;
+}
+.about-half-area h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.about-half-area p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 60px;
+    margin-bottom: 30px;
+}
